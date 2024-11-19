@@ -1,0 +1,31 @@
+.main {
+    display: flex;
+    flex-direction: column;
+
+}
+.main .left{
+    display: flex;
+    margin-left: 300px;
+
+}
+.main .left .logo{
+    display: flex;
+    margin: 15px;
+}
+
+.main .down{
+    display: flex;
+    margin-left: 300px;
+}
+
+.main .about{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    text-align: center;
+
+}
+
+.main .join{
+    text-align: center;
+}

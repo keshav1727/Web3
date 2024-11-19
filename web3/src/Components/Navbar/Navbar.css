@@ -1,0 +1,33 @@
+.navbar {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    position: absolute;
+    top: 0;
+    width: 100%;
+    /* background-color: #1C1C1C; */
+}
+
+.navbar .left {
+    display: flex;
+    color: #1C1C1C;
+}
+
+.navbar .left .navbar-menu {
+    display: flex;
+    list-style: none;
+    gap: 35px;
+    font-size: 18px;
+}
+
+.navbar .right {
+    display: flex;
+    color: #1C1C1C;
+}
+
+.navbar .right .button{
+    margin-right: 50px;
+    font-size: 18px;
+    padding: 2px;
+
+}
